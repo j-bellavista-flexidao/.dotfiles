@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS=""
+    STOW_FOLDERS="nvim"
 fi
 
 if [[ -z $DOTFILES ]]; then
@@ -10,6 +10,6 @@ fi
 STOW_FOLDERS=$STOW_FOLDERS DOTFILES=$DOTFILES $DOTFILES/install
 
 
-echo "hard linking keyboard layout"
+echo "copied keyboard layout"
 
-ln $PWD/keyboard/*.keylayout ~/Library/Keyboard\ Layouts/
+cp $PWD/keyboard/*.keylayout ~/Library/Keyboard\ Layouts/

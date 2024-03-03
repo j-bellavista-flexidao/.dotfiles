@@ -1,4 +1,4 @@
-# @jbb404/.dotfiles
+# @jbb494/.dotfiles
 
 ## Keyboard layout for ergodox-ez-dvorak
 
@@ -15,3 +15,5 @@ The firmware is downloaded in keyboard/ergodox*ez*{...}.hex
 
 Install will do multiple things, it will install the keyboard layout.
 But you will need to select it from keyboard layout settings / others.
+
+First we will install neovim and do the tutorial.
