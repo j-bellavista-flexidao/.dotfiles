@@ -9,7 +9,6 @@ fi
 
 STOW_FOLDERS=$STOW_FOLDERS DOTFILES=$DOTFILES $DOTFILES/install
 
-
 echo "copied keyboard layout"
 
-cp keyboard/ergodox-ez-dvorak.keylayout ~/Library/Keyboard\ Layouts/ergodox-ez-dvorak.keylayout
+cp keyboard/ergodox-ez-dvorak.xkb ~/.config/xkb/ergodox-ez-dvorak

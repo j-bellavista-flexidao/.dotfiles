@@ -1,26 +1,25 @@
 partial alphanumeric_keys
-xkb_symbols "real-prog-dvorak" {
+xkb_symbols "basic" {
 
     name[Group1]= "English (Real Programmers Dvorak)";
 
     key <TLDE> { [       percent,        asciitilde, dead_grave, dead_tilde      ] };
 
     key <AE01> { [          plus,       1               ]       };
-    key <AE02> { [          bracketleft,        2               ]       };
-    key <AE03> { [          braceleft,  3       ]       };
-    key <AE04> { [          parenleft,  4               ]       };
-    key <AE05> { [          ampersand,      5               ]       };
-    key <AE06> { [          equal,  6, dead_circumflex, dead_circumflex ]   };
-    key <AE07> { [          parenright, 7       ]       };
-    key <AE08> { [          braceright, 8       ]       };
-    key <AE09> { [          bracketright,       9,  dead_grave] };
-    key <AE10> { [          asterisk,   0       ]       };
-    key <AE11> { [ exclam,      percent ]       };
-    key <AE12> { [ bar, grave,  dead_tilde] };
+    key <AE02> { [          braceleft,        2               ]       };
+    key <AE03> { [          parenleft,  3       ]       };
+    key <AE04> { [          bracketleft,  4               ]       };
+    key <AE05> { [          less,      5               ]       };
+    key <AE06> { [          greater,  6, dead_circumflex, dead_circumflex ]   };
+    key <AE07> { [          bracketright, 7       ]       };
+    key <AE08> { [          parenright, 8       ]       };
+    key <AE09> { [          braceright,       9,  dead_grave] };
+    key <AE10> { [          equal,   0       ]       };
+    key <AE11> { [ plus,      asciitilde ]       };
 
     key <AD01> { [  semicolon,  colon, dead_acute, dead_diaeresis       ] };
-    key <AD02> { [      comma,  less,   dead_cedilla, dead_caron        ] };
-    key <AD03> { [      period, greater, dead_abovedot, periodcentered  ] };
+    key <AD02> { [      comma,  at,   dead_cedilla, dead_caron        ] };
+    key <AD03> { [      period, asterisk, dead_abovedot, periodcentered  ] };
     key <AD04> { [          p,  P               ]       };
     key <AD05> { [          y,  Y               ]       };
     key <AD06> { [          f,  F               ]       };
@@ -43,7 +42,7 @@ xkb_symbols "real-prog-dvorak" {
     key <AC10> { [          s,  S               ]       };
     key <AC11> { [      minus,  underscore      ]       };
 
-    key <AB01> { [   apostrophe,        quotedbl, dead_ogonek, dead_doubleacute ] };
+    key <AB01> { [   minus,        underscore, dead_ogonek, dead_doubleacute ] };
     key <AB02> { [          q,  Q               ]       };
     key <AB03> { [          j,  J               ]       };
     key <AB04> { [          k,  K               ]       };
