@@ -1,3 +1,4 @@
 export XDG_CONFIG_HOME=$HOME/.config
 VIM="nvim"
 
+xkbcomp -I$XDG_CONFIG_HOME/xkb $XDG_CONFIG_HOME/xkb/ergodox-ez-dvorak $DISPLAY

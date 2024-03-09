@@ -9,7 +9,3 @@ fi
 
 STOW_FOLDERS=$STOW_FOLDERS DOTFILES=$DOTFILES $DOTFILES/install
 
-echo "copied keyboard layout"
-
-mkdir -p $HOME/.config/xkb/symbol
-mkdir -p $HOME/.config/xkb/rules
