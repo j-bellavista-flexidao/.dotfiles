@@ -17,3 +17,14 @@ Install will do multiple things, it will install the keyboard layout.
 But you will need to select it from keyboard layout settings / others.
 
 First we will install neovim and do the tutorial.
+
+## Install to Linux
+
+## Dependencies
+
+nvim
+ripgrep
+alacritty
+
+i3
+i3status
