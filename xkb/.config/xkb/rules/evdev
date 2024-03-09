@@ -1,0 +1,5 @@
+! option                =       symbols
+  custom:foo            =       +custom(foo)
+  custom:bar            =       +custom(baz)
+
+! include %S/evdev

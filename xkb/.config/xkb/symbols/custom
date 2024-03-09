@@ -1,0 +1,9 @@
+partial alphanumeric_keys
+xkb_symbols "foo" {
+    key <TLDE> {        [      VoidSymbol ]       };
+};
+
+partial alphanumeric_keys
+xkb_symbols "baz" {
+    key <AB01> {        [      k, K ]       };
+};
