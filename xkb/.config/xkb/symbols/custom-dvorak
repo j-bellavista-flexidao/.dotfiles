@@ -3,24 +3,23 @@ xkb_symbols "ergodox-ez" {
 
     name[Group1]= "English (Custom Dvorak ergodox-ez)";
 
-    key <TLDE> { [       dollar,        asciitilde, dead_grave, dead_tilde      ] };
+    key <TLDE> { [       percent,        asciitilde, dead_grave, dead_tilde      ] };
 
-    key <AE01> { [          plus,       1               ]       };
-    key <AE02> { [          bracketleft,        2               ]       };
-    key <AE03> { [          braceleft,  3       ]       };
-    key <AE04> { [          parenleft,  4               ]       };
-    key <AE05> { [          ampersand,      5               ]       };
-    key <AE06> { [          equal,  6, dead_circumflex, dead_circumflex ]   };
-    key <AE07> { [          parenright, 7       ]       };
-    key <AE08> { [          braceright, 8       ]       };
-    key <AE09> { [          bracketright,       9,  dead_grave] };
-    key <AE10> { [          asterisk,   0       ]       };
-    key <AE11> { [ exclam,      percent ]       };
-    key <AE12> { [ bar, grave,  dead_tilde] };
+    key <AE01> { [          bar,       1               ]       };
+    key <AE02> { [          braceleft,        2               ]       };
+    key <AE03> { [          parenleft,  3       ]       };
+    key <AE04> { [          bracketleft,  4               ]       };
+    key <AE05> { [          less,      5               ]       };
+    key <AE06> { [          greater,  6, dead_circumflex, dead_circumflex ]   };
+    key <AE07> { [          bracketright, 7       ]       };
+    key <AE08> { [          parenright, 8       ]       };
+    key <AE09> { [          braceright,       9,  dead_grave] };
+    key <AE10> { [          equal,   0       ]       };
+    key <AE11> { [ plus,      grave ]       };
 
     key <AD01> { [  semicolon,  colon, dead_acute, dead_diaeresis       ] };
-    key <AD02> { [      comma,  less,   dead_cedilla, dead_caron        ] };
-    key <AD03> { [      period, greater, dead_abovedot, periodcentered  ] };
+    key <AD02> { [      comma,  at,   dead_cedilla, dead_caron        ] };
+    key <AD03> { [      period, asterisk, dead_abovedot, periodcentered  ] };
     key <AD04> { [          p,  P               ]       };
     key <AD05> { [          y,  Y               ]       };
     key <AD06> { [          f,  F               ]       };
@@ -28,8 +27,7 @@ xkb_symbols "ergodox-ez" {
     key <AD08> { [          c,  C               ]       };
     key <AD09> { [          r,  R               ]       };
     key <AD10> { [          l,  L               ]       };
-    key <AD11> { [      slash,  question        ]       };
-    key <AD12> { [      at,     asciicircum             ]       };
+    key <AD11> { [      minus,  underscore        ]       };
 
     key <AC01> { [          a,  A               ]       };
     key <AC02> { [          o,  O               ]       };
@@ -41,7 +39,6 @@ xkb_symbols "ergodox-ez" {
     key <AC08> { [          t,  T               ]       };
     key <AC09> { [          n,  N               ]       };
     key <AC10> { [          s,  S               ]       };
-    key <AC11> { [      minus,  underscore      ]       };
 
     key <AB01> { [   apostrophe,        quotedbl, dead_ogonek, dead_doubleacute ] };
     key <AB02> { [          q,  Q               ]       };
@@ -53,7 +50,5 @@ xkb_symbols "ergodox-ez" {
     key <AB08> { [          w,  W               ]       };
     key <AB09> { [          v,  V               ]       };
     key <AB10> { [          z,  Z               ]       };
-
-    key <BKSL> { [  backslash,  numbersign             ]       };
 
 };
