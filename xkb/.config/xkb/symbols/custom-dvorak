@@ -3,7 +3,7 @@ xkb_symbols "ergodox-ez" {
 
     name[Group1]= "English (Custom Dvorak ergodox-ez)";
 
-    key <TLDE> { [       percent,        asciitilde, dead_grave, dead_tilde      ] };
+    key <LSGT> { [       percent,        asciitilde, dead_grave, dead_tilde      ] };
 
     key <AE01> { [          bar,       1               ]       };
     key <AE02> { [          braceleft,        2               ]       };
@@ -51,4 +51,8 @@ xkb_symbols "ergodox-ez" {
     key <AB09> { [          v,  V               ]       };
     key <AB10> { [          z,  Z               ]       };
 
+    key <KPAD> { [ question,      at] };
+    key <KPSU> { [ exclam, asciicircum] };
+    key <KPMU> { [ slash, backslash] };
+    key <KPDV> { [ dollar,   numbersign] };
 };
