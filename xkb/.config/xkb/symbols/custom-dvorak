@@ -5,16 +5,16 @@ xkb_symbols "ergodox-ez" {
 
     key <LSGT> { [       percent,        asciitilde, dead_grave, dead_tilde      ] };
 
-    key <AE01> { [          bar,       1               ]       };
-    key <AE02> { [          braceleft,        2               ]       };
-    key <AE03> { [          parenleft,  3       ]       };
-    key <AE04> { [          bracketleft,  4               ]       };
-    key <AE05> { [          less,      5               ]       };
-    key <AE06> { [          greater,  6, dead_circumflex, dead_circumflex ]   };
-    key <AE07> { [          bracketright, 7       ]       };
-    key <AE08> { [          parenright, 8       ]       };
-    key <AE09> { [          braceright,       9,  dead_grave] };
-    key <AE10> { [          equal,   0       ]       };
+    key <AE01> { type="CAPS_NUMBERS", [          bar,       1]       };
+    key <AE02> { type="CAPS_NUMBERS",          [braceleft,        2               ]       };
+    key <AE03> { type="CAPS_NUMBERS",          [parenleft,  3       ]       };
+    key <AE04> { type="CAPS_NUMBERS",          [bracketleft,  4               ]       };
+    key <AE05> { type="CAPS_NUMBERS",          [less,      5               ]       };
+    key <AE06> { type="CAPS_NUMBERS",          [greater,  6]   };
+    key <AE07> { type="CAPS_NUMBERS",          [bracketright, 7       ]       };
+    key <AE08> { type="CAPS_NUMBERS",          [parenright, 8       ]       };
+    key <AE09> { type="CAPS_NUMBERS",          [braceright,       9] };
+    key <AE10> { type="CAPS_NUMBERS",          [equal,   0       ]       };
     key <AE11> { [ plus,      grave ]       };
 
     key <AD01> { [  semicolon,  colon, dead_acute, dead_diaeresis       ] };
@@ -51,7 +51,7 @@ xkb_symbols "ergodox-ez" {
     key <AB09> { [          v,  V               ]       };
     key <AB10> { [          z,  Z               ]       };
 
-    key <KPAD> { [ question,      at] };
+    key <KPAD> { [ question,      ampersand] };
     key <KPSU> { [ exclam, asciicircum] };
     key <KPMU> { [ slash, backslash] };
     key <KPDV> { [ dollar,   numbersign] };

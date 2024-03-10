@@ -1,6 +1,6 @@
 xkb_keymap {
         xkb_keycodes  { include "evdev+aliases(qwerty)" };
-        xkb_types     { include "complete"      };
+        xkb_types     { include "complete+caps-num"      };
         xkb_compat    { include "complete"      };
         xkb_symbols   { include "pc+us(dvorak)+inet(evdev)+custom-dvorak(ergodox-ez)"     };
         xkb_geometry  { include "pc(pc105)"     };

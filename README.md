@@ -33,3 +33,6 @@ i3status
 ## Notes
 
 xkbcomp seems to do what i need. Now I need to make changes to the symbols so it does what i want. Get the primeagen file as template
+
+Add images using the layout created  using xkb
+
