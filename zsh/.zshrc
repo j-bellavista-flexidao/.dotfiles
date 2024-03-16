@@ -1,8 +1,6 @@
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=1000
-setopt SHARE_HISTORY
+export PATH=$HOME/.local/bin:$PATH
 
+export XDG_CONFIG_HOME=$HOME/.config
 
 # Zimfw
 
@@ -33,8 +31,4 @@ export PATH="/opt/homebrew/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-export PATH=$HOME/.local/bin:$PATH
-
-export XDG_CONFIG_HOME=$HOME/.config
-VIM="nvim"
-
+alias v=nvim

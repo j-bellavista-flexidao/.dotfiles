@@ -235,3 +235,7 @@ bindsym $mod+m move workspace to output left
 
 # Suspend
 bindsym $mod+Shift+period exec systemctl suspend
+
+
+# Startup
+exec --no-startup-id xkbcomp -I$XDG_CONFIG_HOME/xkb $XDG_CONFIG_HOME/xkb/ergodox-ez-dvorak $DISPLAY  
