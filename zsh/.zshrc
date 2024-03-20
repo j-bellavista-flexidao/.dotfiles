@@ -20,7 +20,6 @@ fi
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
 
-
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 

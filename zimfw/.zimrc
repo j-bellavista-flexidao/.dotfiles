@@ -1,6 +1,7 @@
 zmodule environment
 
 zmodule jeffreytse/zsh-vi-mode
+zvm_after_init_commands+=('bindkey -M viins "^N" history-substring-search-down; bindkey -M viins "^P" history-substring-search-up')
 
 zmodule prompt-pwd
 zmodule git-info
