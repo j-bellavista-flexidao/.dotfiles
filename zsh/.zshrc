@@ -17,6 +17,9 @@ if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZDOTDIR:-${HOME}}/.zimrc ]]; then
   source ${ZIM_HOME}/zimfw.zsh init -q
 fi
 
+# Some plugin customization
+zvm_after_init_commands+=('bindkey -M viins "^N" history-substring-search-down; bindkey -M viins "^P" history-substring-search-up')
+
 # Initialize modules.
 source ${ZIM_HOME}/init.zsh
 
